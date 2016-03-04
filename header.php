@@ -65,7 +65,7 @@
 	
 						<!-- Your site title as branding in the menu -->
 						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-						<span><?php implode("</span> <span>", explode(" ", bloginfo( 'name' ))); ?></span>
+						<span class='first-letter'><?php echo implode("</span> <span class='first-letter'>", explode(" ", get_bloginfo( 'name' ))); ?></span>
 						</a>
 					</div>
 
