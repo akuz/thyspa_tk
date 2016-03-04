@@ -50,5 +50,7 @@
 	font-family: 'Cinzel Decorative';
 	font-weight: 400;
 	color: #EDEB00 !important;
-	text-transform: capitalize !important;
+}
+.navbar-brand::first-letter {
+	font-size: 150% !important;
 }
