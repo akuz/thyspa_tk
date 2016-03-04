@@ -57,3 +57,7 @@
 .navbar-brand > span:first-letter {
 	font-size: 130% !important;
 }
+
+.navbar-toggle {
+	color: #EDEB00 !important;
+}
