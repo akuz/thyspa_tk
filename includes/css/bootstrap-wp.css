@@ -51,6 +51,7 @@
 	font-weight: 400;
 	color: #EDEB00 !important;
 }
-.navbar-brand span:first-letter {
+.navbar-brand > span:first-letter {
+	display: inline-block;
 	font-size: 150% !important;
 }
