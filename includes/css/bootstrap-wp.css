@@ -58,6 +58,6 @@
 	font-size: 130% !important;
 }
 
-.navbar-toggle {
-	color: #EDEB00 !important;
+.navbar-toggle > span {
+	background-color: #EDEB00 !important;
 }
