@@ -120,9 +120,9 @@ function _tk_scripts() {
 }
 add_action( 'wp_enqueue_scripts', '_tk_scripts' );
 
-add_action('wp_head', 'mbe_wp_head');
+add_action('wp_head', '_tk_navbar_fixed_top_wp_head');
 
-function mbe_wp_head(){
+function _tk_navbar_fixed_top_wp_head(){
     echo '<style>'.PHP_EOL;
     echo 'body{ padding-top: 70px !important; }'.PHP_EOL;
     // Using custom CSS class name.
