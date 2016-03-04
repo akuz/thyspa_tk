@@ -92,11 +92,11 @@ function _tk_scripts() {
 	// Import Google fonts
 	wp_enqueue_style( '_tk-google-fonts', get_template_directory_uri() . '/includes/css/google-fonts.css' );
 
-	// Import the necessary TK Bootstrap WP CSS additions
-	wp_enqueue_style( '_tk-bootstrap-wp', get_template_directory_uri() . '/includes/css/bootstrap-wp.css' );
-
 	// load bootstrap css
 	wp_enqueue_style( '_tk-bootstrap', get_template_directory_uri() . '/includes/resources/bootstrap-cyborg/bootstrap.min.css' );
+
+	// Import the necessary TK Bootstrap WP CSS additions
+	wp_enqueue_style( '_tk-bootstrap-wp', get_template_directory_uri() . '/includes/css/bootstrap-wp.css' );
 
 	// load Font Awesome css
 	wp_enqueue_style( '_tk-font-awesome', get_template_directory_uri() . '/includes/css/font-awesome.min.css', false, '4.1.0' );
