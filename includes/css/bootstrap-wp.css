@@ -51,6 +51,6 @@
 	font-weight: 400;
 	color: #EDEB00 !important;
 }
-.navbar-brand > span.word::first-letter {
+.navbar-brand > span::first-letter {
 	font-size: 130% !important;
 }
