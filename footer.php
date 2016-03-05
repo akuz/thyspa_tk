@@ -5,12 +5,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<div class="well">
-				</div>
 			</div>
 			<div class="col-sm-6">
-				<div class="well">
-				</div>
 			</div>
 		</div>
 	</div>

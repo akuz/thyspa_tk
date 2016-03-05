@@ -33,9 +33,13 @@ body {
 }
 
 div#intro-video-container {
+	position: relative;
 	height: 600px;
-	border: 1px solid Blue;
 	background-color: #222222;
+}
+
+div#intro-video iframe {
+	
 }
 
 /*
