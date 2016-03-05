@@ -3,6 +3,11 @@ Thy Spa Styles
 */
 .main-content {
 }
+
+.navbar {
+	margin-bottom: 0px;
+}
+
 .navbar-fixed-top {
 	padding-top: 2px;
 }
