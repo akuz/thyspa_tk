@@ -2,7 +2,6 @@
 Thy Spa Styles
 */
 .main-content {
-	padding-top: 50px;
 }
 .navbar-fixed-top {
 	padding-top: 2px;
@@ -25,7 +24,7 @@ Thy Spa Styles
 }
 
 div#intro-video-container {
-	height: 80%;
+	height: 600%;
 	border: 1px solid Blue;
 	background-color: #222222;
 }
@@ -177,9 +176,6 @@ object {
 
 
 /* Content */
-.main-content-inner {
-	padding-bottom: 1.5em;
-}
 .hentry {
 	margin: 0 0 1.5em;
 }
