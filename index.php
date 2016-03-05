@@ -32,13 +32,19 @@
         event.target.playVideo();
       }
 
+      function infiniteSeekToStart(ms) {
+      	setTimeout(function() {
+      		player.seekTo(0);
+      		infiniteSeekToStart(ms);
+      	}, ms);
+      }
+
       // 5. The API calls this function when the player's state changes.
       //    The function indicates that when playing a video (state=1),
       //    the player should play for six seconds and then stop.
-      var done = false;
       function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.ENDED) {
-          event.target.playVideo();
+        if (event.data == YT.PlayerState.PLAYING) {
+        	infiniteSeekToStart(20000);
         }
       }
     </script>	
