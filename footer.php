@@ -6,12 +6,10 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="well">
-				1
 				</div>
 			</div>
 			<div class="col-sm-6">
 				<div class="well">
-				2
 				</div>
 			</div>
 		</div>

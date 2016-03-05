@@ -1,6 +1,9 @@
 /*
 Thy Spa Styles
 */
+.main-content {
+	padding-top: 50px;
+}
 .navbar-fixed-top {
 	padding-top: 2px;
 }
@@ -21,6 +24,10 @@ Thy Spa Styles
 	background-color: #DDC600 !important;
 }
 
+.intro-video-container {
+	height: 80%;
+	border: 1px solid Blue;
+}
 
 /*
 Theme Name: _tk
