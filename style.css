@@ -24,7 +24,7 @@ Thy Spa Styles
 }
 
 div#intro-video-container {
-	height: 600%;
+	height: 600px;
 	border: 1px solid Blue;
 	background-color: #222222;
 }
