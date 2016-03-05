@@ -77,13 +77,13 @@
 						'depth'             => 2,
 						'container'         => 'div',
 						'container_class'   => 'collapse navbar-collapse',
-						'menu_class' 		=> 'nav navbar-nav',
+						'menu_class' 		=> 'nav navbar-nav navbar-right',
 						'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
 						'menu_id'			=> 'main-menu',
 						'walker' 			=> new wp_bootstrap_navwalker()
 					)
 				); ?>
-				
+
 			</div>
 		</div><!-- .navbar -->
 	</div>
