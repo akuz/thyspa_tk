@@ -24,9 +24,10 @@ Thy Spa Styles
 	background-color: #DDC600 !important;
 }
 
-.intro-video-container {
+div#intro-video-container {
 	height: 80%;
 	border: 1px solid Blue;
+	background-color: #222222;
 }
 
 /*
