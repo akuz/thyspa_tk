@@ -127,7 +127,6 @@ add_action('wp_head', '_tk_navbar_fixed_top_wp_head');
 
 function _tk_navbar_fixed_top_wp_head(){
     echo '<style>'.PHP_EOL;
-    echo 'body{ padding-top: 70px !important; }'.PHP_EOL;
     // Using custom CSS class name.
     echo 'body.body-logged-in .navbar-fixed-top{ top: 28px !important; }'.PHP_EOL;
     // Using WordPress default CSS class name.
