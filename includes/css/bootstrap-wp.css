@@ -41,23 +41,3 @@
 /*
 .container { padding: 0 15px 15px 15px; }
 */
-
-.navbar-fixed-top {
-	padding-top: 2px;
-}
-
-.navbar-brand {
-	font-family: 'Cinzel Decorative';
-	font-weight: 400;
-	color: #FFD700 !important;
-}
-.navbar-brand > span {
-	display: inline-block !important;
-}
-.navbar-brand > span:first-letter {
-	font-size: 130% !important;
-}
-
-.navbar-toggle > span {
-	background-color: #DDC600 !important;
-}
