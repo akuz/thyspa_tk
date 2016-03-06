@@ -19,6 +19,7 @@
 		<div id="intro-welcome-small">Coming Soon</div>
 	</div>
 	<div id="intro-slogan">
+		<h1>You deserve it.</h1>
 	</div>
 	<div id="intro-woman">
 	</div>
