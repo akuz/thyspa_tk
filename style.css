@@ -70,6 +70,22 @@ div#intro-logo-ts > div#intro-logo-s {
 	top: -170px;
 }
 
+div#intro-welcome {
+	position: absolute;
+	font-family: sans-serif;
+	color: #eeeeee !important;
+	text-align: center;
+	top: 300px;
+	left: 0;
+	right: 0;
+}
+div#intro-welcome > div#intro-welcome-big {
+	font-size: 70px;
+}
+div#intro-welcome > div#intro-welcome-small {
+	font-size: 20px;
+}
+
 /*
 Theme Name: _tk
 Theme URI: http://themekraft.com/store/_tk-free-wordpress-starter-theme-based-on-twitter-bootstrap/

@@ -9,5 +9,9 @@
 		<div id="intro-logo-t">T</div>
 		<div id="intro-logo-s">S</div>
 	</div>
+	<div id="intro-welcome">
+		<div id="intro-welcome-big">Original Thai Massage</div>
+		<div id="intro-welcome-small">Coming Soon</div>
+	</div>
 
 <?php get_footer(); ?>
