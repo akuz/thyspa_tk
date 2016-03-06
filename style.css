@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-fixed-top .navbar-collapse a {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .navbar-brand {
