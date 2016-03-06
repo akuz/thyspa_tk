@@ -59,7 +59,7 @@ div#intro-video-container > video {
 }
 
 @media screen and (max-device-width: 400px) {
-    #intro-video {
+    div#intro-video-container > video {
         display: none;
     }
 }
