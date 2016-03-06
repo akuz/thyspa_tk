@@ -53,25 +53,18 @@ div#intro-video-container > video {
     transform: translateX(-50%) translateY(-50%);
 }
 
-div.ts-logo {
+div#intro-logo-ts {
 	position: static;
 	font-family: 'Cinzel Decorative';
 	font-weight: 400;
+	font-size: 100px;
 	color: #FFD700 !important;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	text-align: middle;
+	top: 200px;
 }
-div.ts-logo > div.ts-logo-t {
-	position: static;
-	top: 40%;
-	left: 45%;
-}
-div.ts-logo > div.ts-logo-s {
-	position: static;
-	top: 45%;
-	left: 45%;
+div#intro-logo-ts > div#intro-logo-s {
+	position: relative;
+	top: 30px;
 }
 
 
