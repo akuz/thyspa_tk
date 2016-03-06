@@ -18,7 +18,7 @@
 		<div id="intro-welcome-big">Original Thai Massage</div>
 		<div id="intro-welcome-small">Coming Soon</div>
 	</div>
-	<div id="intro-info">
+	<div class="intro-info">
 		<h1>You deserve it.</h1>
 	</div>
 	<div id="intro-woman">
