@@ -23,9 +23,10 @@
 	</div>
 	<div id="intro-woman">
 	</div>
-	<div class="content">
+
+	<div class="container">
 		<h1>Contact us</h1>
-		
+
 	</div>
 
 <?php get_footer(); ?>
