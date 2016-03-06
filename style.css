@@ -45,6 +45,7 @@ div#intro-video-container {
 
 div#intro-video-container > video {
     position: relative;
+    display: block;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -55,6 +56,12 @@ div#intro-video-container > video {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+}
+
+@media screen and (max-device-width: 800px) {
+    #intro-video {
+        display: none;
+    }
 }
 
 div#intro-logo-ts {

@@ -1,7 +1,12 @@
 <?php get_header(); ?>
 
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement('video');
+	</script>
+	<![endif]-->
 	<div id="intro-video-container">
-		<video autoplay loop poster="">
+		<video autoplay loop poster="" id="intro-video">
 		    <source src="<?php echo wp_get_attachment_url(54); ?>" type="video/mp4" />
 		</video>
 	</div>
