@@ -103,10 +103,22 @@ div.intro-info a {
 
 div#intro-woman {
 	height: 200px;
-    background-image: url(/wp-content/uploads/2016/03/19324405_xl.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+	position: relative;
+}
+
+div#intro-woman > img.background {
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 @media screen and (max-device-width: 400px) {

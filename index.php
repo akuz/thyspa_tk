@@ -22,6 +22,7 @@
 		<h1>You deserve it.</h1>
 	</div>
 	<div id="intro-woman">
+	    <img src="<?php echo wp_get_attachment_url(51); ?>" class="background" />
 	</div>
 	<div class="intro-info">
 		<h1>Contact us</h1>
