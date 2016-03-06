@@ -24,7 +24,8 @@
 	<div id="intro-woman">
 	</div>
 	<div class="intro-info">
-		<h1>Contact us at</h1>
+		<h1>Contact us</h1>
+		<a href="baz@thyspa.com">baz@thyspa.com</a>
 	</div>
 
 <?php get_footer(); ?>
