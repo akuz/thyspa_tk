@@ -104,6 +104,7 @@ div.intro-info a {
 div#intro-woman {
 	height: 200px;
 	position: relative;
+	overflow: hidden;
 }
 
 div#intro-woman > img.background {
