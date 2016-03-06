@@ -61,7 +61,7 @@ div#intro-logo-ts {
 	line-height: 200px;
 	color: rgb(236, 188, 47) !important;
 	text-align: center;
-	top: 170px;
+	top: 150px;
 	left: 0;
 	right: 0;
 }
@@ -75,12 +75,12 @@ div#intro-welcome {
 	font-family: sans-serif;
 	color: #eeeeee !important;
 	text-align: center;
-	top: 300px;
+	top: 350px;
 	left: 0;
 	right: 0;
 }
 div#intro-welcome > div#intro-welcome-big {
-	font-size: 70px;
+	font-size: 50px;
 }
 div#intro-welcome > div#intro-welcome-small {
 	font-size: 20px;
