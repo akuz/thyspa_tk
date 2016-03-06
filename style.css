@@ -60,13 +60,12 @@ div#intro-logo-ts {
 	font-size: 100px;
 	color: #FFD700 !important;
 	text-align: middle;
-	top: 200px;
+	top: -400px;
 }
 div#intro-logo-ts > div#intro-logo-s {
 	position: relative;
-	top: 30px;
+	top: -70px;
 }
-
 
 /*
 Theme Name: _tk
