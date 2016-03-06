@@ -2,7 +2,7 @@
 Thy Spa Styles
 */
 body {
-	padding-top: 50px;
+	border-top: 50px solid #000000;
 }
 
 .main-content {
