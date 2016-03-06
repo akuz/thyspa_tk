@@ -35,7 +35,7 @@ body {
 div#intro-video-container {
 	position: relative;
 	height: 600px;
-	background-color: #222222;
+	/*background-color: #222222;*/
 	overflow: hidden;
 }
 
