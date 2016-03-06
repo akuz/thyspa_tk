@@ -61,10 +61,12 @@ div#intro-logo-ts {
 	color: #FFD700 !important;
 	text-align: center;
 	top: 200px;
+	left: 0;
+	right: 0;
 }
 div#intro-logo-ts > div#intro-logo-s {
 	position: relative;
-	top: -100px;
+	top: -200px;
 }
 
 /*
