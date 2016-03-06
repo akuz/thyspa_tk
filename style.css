@@ -91,12 +91,12 @@ div#intro-welcome > div#intro-welcome-small {
 	font-size: 20px;
 }
 
-div#intro-slogan {
-	height: 200px;
-	text-align: center;
+div.intro-info {
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
-div#intro-slogan h1 {
-	line-height: 180px;
+div.intro-info h1 {
+	text-align: center;
 }
 
 div#intro-woman {
