@@ -36,13 +36,15 @@ div#intro-video-container {
 	position: relative;
 	height: 600px;
 	background-color: #222222;
+	overflow: hidden;
 }
 
 div#intro-video-container > video {
     position: static;
 /*    top: 50%;
     left: 50%;
-*/    min-width: 100%;
+*/  
+    min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
