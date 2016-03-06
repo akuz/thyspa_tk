@@ -54,17 +54,17 @@ div#intro-video-container > video {
 }
 
 div#intro-logo-ts {
-	position: static;
+	position: absolute;
 	font-family: 'Cinzel Decorative';
 	font-weight: 400;
 	font-size: 100px;
 	color: #FFD700 !important;
 	text-align: middle;
-	top: -400px;
+	top: 200px;
 }
 div#intro-logo-ts > div#intro-logo-s {
 	position: relative;
-	top: -70px;
+	top: -100px;
 }
 
 /*
