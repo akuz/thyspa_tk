@@ -16,6 +16,10 @@ body {
 	padding-top: 2px;
 }
 
+.navbar-fixed-top .navbar-collapse a {
+	color: #ffffff;
+}
+
 .navbar-brand {
 	font-family: 'Cinzel Decorative';
 	font-weight: 400;
