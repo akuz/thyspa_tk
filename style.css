@@ -35,7 +35,7 @@ body {
 div#intro-video-container {
 	position: relative;
 	height: 600px;
-	background-color: #222222;
+	/*background-color: #222222;*/
 	overflow: hidden;
 }
 
@@ -52,6 +52,28 @@ div#intro-video-container > video {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
+div.ts-logo {
+	position: static;
+	font-family: 'Cinzel Decorative';
+	font-weight: 400;
+	color: #FFD700 !important;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+div.ts-logo > div.ts-logo-t {
+	position: static;
+	top: 40%;
+	left: 45%;
+}
+div.ts-logo > div.ts-logo-s {
+	position: static;
+	top: 45%;
+	left: 45%;
+}
+
 
 /*
 Theme Name: _tk
