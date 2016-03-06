@@ -124,7 +124,7 @@ div#intro-woman > img.background {
 
 @media screen and (max-device-width: 400px) {
     div#intro-video-container {
-    	height: 600px;
+    	height: 500px;
     }
     div#intro-video-container > video {
         display: none;
