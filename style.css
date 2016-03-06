@@ -59,7 +59,7 @@ div#intro-logo-ts {
 	font-weight: 400;
 	font-size: 200px;
 	line-height: 200px;
-	color: #FFD700 !important;
+	color: #DAA520 !important;
 	text-align: center;
 	top: 200px;
 	left: 0;
@@ -67,7 +67,7 @@ div#intro-logo-ts {
 }
 div#intro-logo-ts > div#intro-logo-s {
 	position: relative;
-	top: -150px;
+	top: -170px;
 }
 
 /*
