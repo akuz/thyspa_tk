@@ -39,7 +39,7 @@ div#intro-video-container {
 }
 
 div#intro-video-container > video {
-    position: fixed;
+    position: static;
     top: 50%;
     left: 50%;
     min-width: 100%;
