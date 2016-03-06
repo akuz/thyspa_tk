@@ -91,7 +91,8 @@ div#intro-welcome > div#intro-welcome-small {
 }
 
 div#intro-slogan {
-	background-color: #ffffff;
+	color: #222222;
+	background-color: rgb(216,217,199);
 	height: 200px;
 }
 
