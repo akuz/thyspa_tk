@@ -18,7 +18,9 @@
 		<div id="intro-welcome-big">Original Thai Massage</div>
 		<div id="intro-welcome-small">Coming Soon</div>
 	</div>
-	<div id="intro-bottom">
+	<div id="intro-slogan">
+	</div>
+	<div id="intro-woman">
 	</div>
 
 <?php get_footer(); ?>
