@@ -93,6 +93,8 @@ div#intro-welcome > div#intro-welcome-small {
 
 div#intro-slogan {
 	height: 200px;
+	line-height: 200px;
+	text-align: center;
 }
 
 div#intro-woman {
