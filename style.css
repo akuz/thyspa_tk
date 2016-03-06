@@ -96,6 +96,9 @@ div.intro-info {
 	padding-bottom: 70px;
 	text-align: center;
 }
+div.intro-info a {
+	color: #222222;
+}
 
 div#intro-woman {
 	height: 200px;
