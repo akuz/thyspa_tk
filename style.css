@@ -58,6 +58,9 @@ div#intro-video-container > video {
 }
 
 @media screen and (max-device-width: 400px) {
+    div#intro-video-container {
+    	height: 400px;
+    }
     div#intro-video-container > video {
         display: none;
     }
