@@ -40,6 +40,7 @@ div#intro-video-container {
 	position: relative;
 	height: 600px;
 	overflow: hidden;
+    background-color: #000000;
 }
 
 div#intro-video-container > video {
@@ -91,8 +92,6 @@ div#intro-welcome > div#intro-welcome-small {
 }
 
 div#intro-slogan {
-	color: #222222;
-	background-color: rgb(216,217,199);
 	height: 200px;
 }
 
