@@ -2,7 +2,7 @@
 
 	<div id="intro-video-container">
 		<video autoplay loop poster="" id="bgvid">
-		    <source src="<?php echo wp_get_attachment_url(52); ?>" type="video/mp4">
+		    <source src="<?php echo wp_get_attachment_url(53); ?>" type="video/mp4">
 		</video>
 		<div class="thyspa-logo">
 	</div>
