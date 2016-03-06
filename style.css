@@ -57,9 +57,9 @@ div#intro-logo-ts {
 	position: absolute;
 	font-family: 'Cinzel Decorative';
 	font-weight: 400;
-	font-size: 100px;
+	font-size: 200px;
 	color: #FFD700 !important;
-	text-align: middle;
+	text-align: center;
 	top: 200px;
 }
 div#intro-logo-ts > div#intro-logo-s {
