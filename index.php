@@ -26,7 +26,7 @@
 	</div>
 	<div class="intro-info">
 		<h1>Contact us</h1>
-		<a href="baz@thyspa.com">baz@thyspa.com</a>
+		<a href="mailto:baz@thyspa.com">baz@thyspa.com</a>
 	</div>
 
 <?php get_footer(); ?>
