@@ -110,6 +110,9 @@ div#intro-bottom {
     div#intro-logo-ts {
     	top: 100px;
     }
+    div#intro-welcome {
+    	top: 320px;
+    }
 }
 
 /*
