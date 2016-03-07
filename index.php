@@ -15,7 +15,7 @@
 		<div id="intro-logo-s">S</div>
 	</div>
 	<div id="intro-welcome">
-		<dh1>Original Thai Massage</h1>
+		<h1>Original Thai Massage</h1>
 		<h4>Coming Soon</h4>
 	</div>
 	<div class="intro-info">
