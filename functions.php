@@ -104,12 +104,6 @@ function _tk_scripts() {
 	// load _tk styles
 	wp_enqueue_style( '_tk-style', get_stylesheet_uri() );
 
-	// load scrollmagic js
-	wp_enqueue_script('_tk-scrollmagicjs', get_template_directory_uri().'/includes/resources/scrollmagic/minified/ScrollMagic.min.js', array());
-
-	// load scrollmagic js
-	wp_enqueue_script('_tk-scrollmagicjs-indicators', get_template_directory_uri().'/includes/resources/scrollmagic/minified/plugins/debug.addIndicators.min.js', array());
-
 	// load bootstrap js
 	wp_enqueue_script('_tk-bootstrapjs', get_template_directory_uri().'/includes/resources/bootstrap/js/bootstrap.min.js', array('jquery') );
 
@@ -126,19 +120,23 @@ function _tk_scripts() {
 		wp_enqueue_script( '_tk-keyboard-image-navigation', get_template_directory_uri() . '/includes/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
 	}
 
+  // scrollmagic.js
+	wp_enqueue_script('scrollmagic', get_template_directory_uri().'/includes/resources/scrollmagic/minified/ScrollMagic.min.js', array());
+	wp_enqueue_script('scrollmagic-addIndicators', get_template_directory_uri().'/includes/resources/scrollmagic/minified/plugins/debug.addIndicators.min.js', array('scrollmagic'));
+
 }
 add_action( 'wp_enqueue_scripts', '_tk_scripts' );
 
-add_action('wp_head', '_tk_navbar_fixed_top_wp_head');
+// add_action('wp_head', '_tk_navbar_fixed_top_wp_head');
 
-function _tk_navbar_fixed_top_wp_head(){
-    echo '<style>'.PHP_EOL;
-    // Using custom CSS class name.
-    echo 'body.body-logged-in .navbar-fixed-top{ top: 28px !important; }'.PHP_EOL;
-    // Using WordPress default CSS class name.
-    echo 'body.logged-in .navbar-fixed-top{ top: 28px !important; }'.PHP_EOL;
-    echo '</style>'.PHP_EOL;
-}
+// function _tk_navbar_fixed_top_wp_head(){
+//     echo '<style>'.PHP_EOL;
+//     // Using custom CSS class name.
+//     echo 'body.body-logged-in .navbar-fixed-top{ top: 28px !important; }'.PHP_EOL;
+//     // Using WordPress default CSS class name.
+//     echo 'body.logged-in .navbar-fixed-top{ top: 28px !important; }'.PHP_EOL;
+//     echo '</style>'.PHP_EOL;
+// }
 
 /**
  * Implement the Custom Header feature.

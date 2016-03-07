@@ -4,6 +4,12 @@ Thy Spa Styles
 body {
 	padding-top: 50px;
 }
+body.body-logged-in .navbar-fixed-top { 
+  top: 28px !important;
+}
+body.logged-in .navbar-fixed-top {
+  top: 28px !important;
+}
 
 .main-content {
 }
