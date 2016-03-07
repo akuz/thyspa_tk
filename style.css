@@ -85,12 +85,6 @@ div#intro-welcome {
 	left: 0;
 	right: 0;
 }
-div#intro-welcome > div#intro-welcome-big {
-	font-size: 50px;
-}
-div#intro-welcome > div#intro-welcome-small {
-	font-size: 20px;
-}
 
 div.intro-info {
 	padding-top: 70px;
