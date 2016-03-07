@@ -104,6 +104,12 @@ function _tk_scripts() {
 	// load _tk styles
 	wp_enqueue_style( '_tk-style', get_stylesheet_uri() );
 
+	// load scrollmagic js
+	wp_enqueue_script('_tk-scrollmagicjs', get_template_directory_uri().'/includes/resources/scrollmagic/minified/ScollMagic.min.js', array());
+
+	// load scrollmagic js
+	wp_enqueue_script('_tk-scrollmagicjs-indicators', get_template_directory_uri().'/includes/resources/scrollmagic/minified/plugins/debug.addIndicators.min.js', array());
+
 	// load bootstrap js
 	wp_enqueue_script('_tk-bootstrapjs', get_template_directory_uri().'/includes/resources/bootstrap/js/bootstrap.min.js', array('jquery') );
 
