@@ -105,7 +105,7 @@ function _tk_scripts() {
 	wp_enqueue_style( '_tk-style', get_stylesheet_uri() );
 
 	// load scrollmagic js
-	wp_enqueue_script('_tk-scrollmagicjs', get_template_directory_uri().'/includes/resources/scrollmagic/minified/ScollMagic.min.js', array());
+	wp_enqueue_script('_tk-scrollmagicjs', get_template_directory_uri().'/includes/resources/scrollmagic/minified/ScrollMagic.min.js', array());
 
 	// load scrollmagic js
 	wp_enqueue_script('_tk-scrollmagicjs-indicators', get_template_directory_uri().'/includes/resources/scrollmagic/minified/plugins/debug.addIndicators.min.js', array());
