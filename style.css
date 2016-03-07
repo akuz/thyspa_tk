@@ -102,7 +102,7 @@ div#intro-woman {
 }
 
 div#intro-woman > img.background {
-    position: static;
+    position: fixed;
     display: block;
     top: 50%;
     left: 50%;
