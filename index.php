@@ -31,13 +31,6 @@
 
 	<script type="text/javascript">
 
-	jQuery(document).ready(function($) {
-		$(window).scroll(function(e) {
-			var scrolled = $(window).scrollTop();
-			$("#intro-woman > img.background").css("top", -(scrolled) + "px");
-		});
-	});
-
 	</script>
 
 <?php get_footer(); ?>

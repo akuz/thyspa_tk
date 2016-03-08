@@ -18,6 +18,8 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+  <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
 	<?php wp_head(); ?>
 </head>
 
