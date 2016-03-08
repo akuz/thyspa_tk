@@ -31,18 +31,13 @@
 
 	<script type="text/javascript">
 
-	function parallax() {
-		var scrolled = $(window).scrollTop();
-		$("#intro-woman > img.background").css("top", -(scrolled) + "px");
-	}
-
 	jQuery(document).ready(function($) {
-
 		$(window).scroll(function(e) {
-			parallax();
+			var scrolled = $(window).scrollTop();
+			$("#intro-woman > img.background").css("top", -(scrolled) + "px");
 		});
 	});
-	
+
 	</script>
 
 <?php get_footer(); ?>
