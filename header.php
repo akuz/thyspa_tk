@@ -19,7 +19,8 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
   <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
-
+  <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
+  
 	<?php wp_head(); ?>
 </head>
 

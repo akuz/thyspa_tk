@@ -89,9 +89,6 @@ add_action( 'widgets_init', '_tk_widgets_init' );
  */
 function _tk_scripts() {
 
-	// Import Google fonts
-	wp_enqueue_style( '_tk-google-fonts', get_template_directory_uri() . '/includes/css/google-fonts.css' );
-
 	// load bootstrap css
 	wp_enqueue_style( '_tk-bootstrap', get_template_directory_uri() . '/includes/resources/bootstrap-cosmo/bootstrap.min.css' );
 
