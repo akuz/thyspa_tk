@@ -37,7 +37,7 @@
 
 		// build scenes
 		new ScrollMagic.Scene({triggerElement: "#intro-woman"})
-						.setTween("#intro-woman > img", {y: "80%", ease: Linear.easeNone})
+						.setTween("#intro-woman > img", {y: "80%"})
 						.addIndicators()
 						.addTo(controller);
 	});
