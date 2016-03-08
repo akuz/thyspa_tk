@@ -32,14 +32,8 @@
 	<script type="text/javascript">
 	jQuery(document).ready(function($) {
 
-		// init controller
-		var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+		// TODO
 
-		// build scenes
-		new ScrollMagic.Scene({triggerElement: "#intro-woman"})
-						.setTween("#intro-woman > img", {y: "80%"})
-						.addIndicators()
-						.addTo(controller);
 	});
 	</script>
 

@@ -119,14 +119,6 @@ function _tk_scripts() {
 	if ( is_singular() && wp_attachment_is_image() ) {
 		wp_enqueue_script( '_tk-keyboard-image-navigation', get_template_directory_uri() . '/includes/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
 	}
-
-  // scrollmagic.js
-	wp_enqueue_script('scrollmagic', get_template_directory_uri().'/includes/resources/scrollmagic/minified/ScrollMagic.min.js', array());
-	wp_enqueue_script('scrollmagic-gsap', get_template_directory_uri().'/includes/resources/scrollmagic/minified/plugins/animation.gsap.min.js', array('scrollmagic'));
-	wp_enqueue_script('scrollmagic-velocity', get_template_directory_uri().'/includes/resources/scrollmagic/minified/plugins/animation.velocity.min.js', array('scrollmagic'));
-	wp_enqueue_script('scrollmagic-addIndicators', get_template_directory_uri().'/includes/resources/scrollmagic/minified/plugins/debug.addIndicators.min.js', array('scrollmagic'));
-	wp_enqueue_script('scrollmagic-jquery', get_template_directory_uri().'/includes/resources/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js', array('scrollmagic'));
-
 }
 add_action( 'wp_enqueue_scripts', '_tk_scripts' );
 
