@@ -21,7 +21,7 @@
 	<div class="intro-info">
 		<h1>You deserve it.</h1>
 	</div>
-	<div id="intro-woman">
+	<div id="intro-woman" class="parallax">
 	    <img src="<?php echo wp_get_attachment_url(51); ?>" class="background" />
 	</div>
 	<div class="intro-info">
@@ -30,6 +30,8 @@
 	</div>
 
 	<script type="text/javascript">
+
+  // var parallaxes = d3.select(".parallax");
 
 	</script>
 
