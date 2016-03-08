@@ -30,11 +30,19 @@
 	</div>
 
 	<script type="text/javascript">
+
+	function parallax() {
+		var scrolled = $(window).scrollTop();
+		$("#intro-woman > img.background").css("top", -(scrolled) + "px");
+	}
+
 	jQuery(document).ready(function($) {
 
-		// TODO
-
+		$(window).scroll(function(e) {
+			parallax();
+		});
 	});
+	
 	</script>
 
 <?php get_footer(); ?>
