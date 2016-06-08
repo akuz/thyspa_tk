@@ -101,6 +101,9 @@ function _tk_scripts() {
 	// load _tk styles
 	wp_enqueue_style( '_tk-style', get_stylesheet_uri() );
 
+	// load parallax js
+	wp_enqueue_script('_tk-parallaxjs', get_template_directory_uri().'/includes/resources/parallax.js/1.4.2/parallax.min.js', array('jquery') );
+
 	// load bootstrap js
 	wp_enqueue_script('_tk-bootstrapjs', get_template_directory_uri().'/includes/resources/bootstrap/js/bootstrap.min.js', array('jquery') );
 
