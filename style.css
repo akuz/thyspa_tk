@@ -70,6 +70,13 @@ div#intro-video-container > video {
 	font-weight: 400 !important;
 }
 
+.ts-capitalize > span {
+        display: inline-block !important;
+}
+.ts-capitalize > span:first-letter {
+        font-size: 130% !important;
+}
+
 div#intro-logo-ts {
 	position: absolute;
 	font-family: 'Cinzel Decorative';
@@ -126,22 +133,7 @@ div#intro-woman > img.background {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-/*
-div#intro-woman > img.background {
-    position: relative;
-    display: block;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-}
-*/
+
 @media screen and (max-device-width: 400px) {
     div#intro-video-container {
     	height: 550px;
