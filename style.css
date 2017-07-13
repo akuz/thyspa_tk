@@ -43,11 +43,18 @@ body.logged-in .navbar-fixed-top {
 	background-color: #DDC600 !important;
 }
 
+div#intro-valentine {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+	background-color: #000000;
+}
+
 div#intro-video-container {
 	position: relative;
 	height: 600px;
 	overflow: hidden;
-    background-color: #000000;
+	background-color: #000000;
 }
 
 div#intro-video-container > video {
@@ -83,7 +90,7 @@ div#intro-logo-ts {
 	font-weight: 400;
 	font-size: 200px;
 	line-height: 200px;
-	color: rgb(236, 188, 47) !important;
+	color: rgb(218,165,32) !important;
 	text-align: center;
 	top: 150px;
 	left: 0;
@@ -114,12 +121,13 @@ div.intro-info a {
 }
 
 div#intro-woman {
-	height: 200px;
+	height: 400px;
 	position: relative;
 	overflow: hidden;
 }
 
-div#intro-woman > img.background {
+/* div#intro-woman > */
+img.background {
     position: absolute;
     z-index: -100;
     top: 50%;

@@ -99,7 +99,7 @@ function _tk_scripts() {
 	wp_enqueue_style( '_tk-font-awesome', get_template_directory_uri() . '/includes/css/font-awesome.min.css', false, '4.1.0' );
 
 	// load _tk styles
-	wp_enqueue_style( '_tk-style', get_stylesheet_uri() );
+	wp_enqueue_style( '_tk-style', get_stylesheet_uri() . '?update=3' );
 
 	// load parallax js
 	wp_enqueue_script('_tk-parallaxjs', get_template_directory_uri().'/includes/resources/parallax.js/1.4.2/parallax.min.js', array('jquery') );
