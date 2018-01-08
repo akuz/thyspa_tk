@@ -17,9 +17,9 @@
 					<span>Spa</span>
 				</h4>
 				<h5>Original Thai Massage</h5>
-				<h5>34 Cowley Road, Oxford, OX4 1HZ (<a href="https://www.google.co.uk/maps/place/Thy+Spa/@51.74923,-1.2445757,17z/data=!3m1!4b1!4m5!3m4!1s0x4876c14da21a6c03:0x67617b09ef70e45e!8m2!3d51.74923!4d-1.242387?hl=en" target="_blank">Map</a>)</h5>
-				<h5>E: <a href="mailto:baz@thyspa.com">info@thyspa.com</a></h5>
-				<h5>T: +44 1865 497999</h5>
+				<h5><a href="https://www.google.co.uk/maps/place/Thy+Spa/@51.74923,-1.2445757,17z/data=!3m1!4b1!4m5!3m4!1s0x4876c14da21a6c03:0x67617b09ef70e45e!8m2!3d51.74923!4d-1.242387?hl=en" target="_blank">34 Cowley Road, Oxford, OX4 1HZ</a></h5>
+				<h5>E-mail: <a href="mailto:oxford@thyspa.com">oxford@thyspa.com</a></h5>
+				<h5>Phone: +44 1865 497999</h5>
 				<h5>Opening Hours</h5>
 				<h5>Monday - Saturday | 9:00am - 9:00pm</h5>
 				<h5>Sunday | 9:00am - 7:00pm</h5>
